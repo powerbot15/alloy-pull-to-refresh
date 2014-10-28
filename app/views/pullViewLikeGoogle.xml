@@ -1,0 +1,9 @@
+<Alloy>
+		<View id="pullToRefresh">
+			<!--<Label class="pullLabel" text="Pull to refresh"></Label>-->
+			<View id="i1"></View>
+			<View id="i2"></View>
+			<View id="i3"></View>
+		</View>
+
+</Alloy>

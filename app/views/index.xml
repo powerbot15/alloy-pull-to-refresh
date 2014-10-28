@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<Widget id="pullToRefreshAnimation" src="pullToRefreshAnimation"/>	
+		<TableView id="scrollContainer" dataCollection="item">
+			<TableViewRow class="itemContainer">
+				<View>
+					<Label text="{text}"></Label>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

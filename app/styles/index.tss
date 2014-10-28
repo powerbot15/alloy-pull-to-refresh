@@ -1,0 +1,29 @@
+".container": {
+	backgroundColor:"white"
+	/*layout:'vertical'*/
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign:"center",
+	color: "#000"
+}
+
+"#scrollContainer" : {
+	top : "8px",
+	bottom: 0,
+	width : "100%",
+	/*height: "800px",
+	contentWidth : "90%",
+	contentHeight: "100%",*/
+	layout : "vertical"
+}
+".itemContainer" : {
+	width:"100%",
+	height:"50px",
+	backgroundColor:"#5AAA33",
+	color:'black',
+	layout:'horizontal'
+}
+
