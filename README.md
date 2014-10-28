@@ -8,7 +8,7 @@ Widget placed in this [path](https://github.com/powerbot15/alloy-pull-to-refresh
 Usage
 -----
 
-Widget common usage is pretty simple: it reacts on App custom events:
+Widget common usage is pretty simple. It reacts on App custom events:
 
 +	refreshStartWorking
 +	refreshStopWorking
