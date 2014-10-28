@@ -35,6 +35,9 @@ Titanium.App.addEventListener('pullEnd', function(event){
 });
 
 Titanium.App.addEventListener('refreshStartWorking', function(event){
+	if(refreshing){
+		return;
+	}
 	refreshing = true;
 	refreshStartSliding();
 });
@@ -62,10 +65,6 @@ function refreshStartSliding(){
 	}
 	
 	higherZIndex++;
-	
-//	if(higherZIndex >= 1000){
-//		refreshing = false;
-//	}
 	
 	slides[currentSlide].zIndex = higherZIndex,
 	
