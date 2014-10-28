@@ -10,8 +10,8 @@ Usage
 
 Widget common usage is pretty simple. It reacts on App custom events:
 
-	+refreshStartWorking
-	+refreshStopWorking
+	refreshStartWorking
+	refreshStopWorking
 
 So you just need to fire these custom events on app, when you need start or stop the refresh animation:
 
