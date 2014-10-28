@@ -14,5 +14,8 @@ Widget common usage is pretty simple: it reacts on App custom events:
 +	refreshStopWorking
 
 So you just need to fire these custom events on app, when you need start or stop refresh animation:
+
 	Ti.App.fireEvent('refreshStartWorking') to start widget animation
 	Ti.App.fireEvent('refreshStopWorking') to stop widget animation
+	
+	
