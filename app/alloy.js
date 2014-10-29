@@ -9,8 +9,8 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
-if (OS_IOS || OS_ANDROID) {
+
 	Alloy.Collections.item = Alloy.createCollection('item');
 	Alloy.Globals.pullHeight = 150;
 	Alloy.Globals.pullIncrementor = 6;
-}
+

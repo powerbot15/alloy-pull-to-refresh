@@ -6,17 +6,17 @@ var args = arguments[0] || {},
 	}),
 	widthIncrementor,
 	slides = [$.i1, $.i2, $.i3],
-	refreshing = true,
+	refreshing = false,
 	currentSlide = 1,
-	higherZIndex = 100,
+	higherZIndex = 1000,
 	deviceWidth = Titanium.Platform.displayCaps.platformWidth;
 	slideAnimationUp = Ti.UI.createAnimation({
-		width : deviceWidth,
+		width : "100%",
 		duration : 500
 	});
 	slideAnimationDown = Ti.UI.createAnimation({
 		width : 0,
-		duration : 100
+		duration : 50
 	});
 
 widthIncrementor = deviceWidth / (Alloy.Globals.pullHeight / Alloy.Globals.pullIncrementor);
@@ -87,7 +87,7 @@ slideAnimationUp.addEventListener('complete', function(event){
 });
 
 function refreshStopSliding(){
-	higherZIndex = 100;
+	higherZIndex = 1000;
 	for(var i = 0; i < slides.length; i++){
 		slides[i].animate(slideAnimationDown);
 		slides[i].zIndex = higherZIndex;
