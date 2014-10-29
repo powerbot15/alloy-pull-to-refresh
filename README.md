@@ -1,7 +1,7 @@
-Titanium Alloy Sample realization of pull-to-refresh widget
+Titanium Alloy Sample solution of pull-to-refresh widget
 ===========================================================
 
-This project shares under MIT license, so you can use it on your own
+This project shares without any author's license, so you can use it on your own mind
 
 Widget placed in this [path](https://github.com/powerbot15/alloy-pull-to-refresh/tree/master/app/widgets/pullToRefreshAnimation)
 
@@ -10,8 +10,8 @@ Usage
 
 Widget common usage is pretty simple. It reacts on App custom events:
 
-	+refreshStartWorking
-	+refreshStopWorking
+	refreshStartWorking
+	refreshStopWorking
 
 So you just need to fire these custom events on app, when you need start or stop the refresh animation:
 
